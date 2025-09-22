@@ -382,3 +382,33 @@ h1{
 .p-5px{
     padding: 5px;
 }
+
+
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 2rem 0;
+}
+
+.project-card-01{
+    grid-column:span 3;
+}
+
+.project-card-02{
+    grid-column:span 3;
+}
+
+.project-card-03{
+    grid-column:span 4;
+}
+
+.project-card-04{
+    grid-column:span 2;
+}
+
+.project-card{
+    height: 415px;
+    background-color:  #4f4f4f41 ;
+    border-radius: 20px;
+}
