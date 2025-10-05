@@ -266,6 +266,10 @@ a:hover{
     display: grid;
 }
 
+.cl-2{
+    grid-template-columns: 1fr 1fr;
+}
+
 .cl-3{
     grid-template-columns: repeat(3, 1fr);
 }
@@ -343,6 +347,11 @@ h1{
 
 /* latest-projects section start */
 
+
+.subtitle{
+    color: var(--primary-color);
+}
+
 .latest-card{
     /* width: %; */
     background-color: var(--background-color-alt);
@@ -350,6 +359,12 @@ h1{
     border-radius: .8rem;
     box-shadow: #4F4F4F;
     margin: 1rem;
+}
+
+
+.latest-slider button{
+    margin: 0 .2rem;
+    
 }
 
 .latest-card-img{
@@ -593,3 +608,373 @@ h1{
     transition: width 1s ease-in-out;
 }
 /* skill prograse copyed */
+
+
+
+
+/* success stoy start */
+
+.success-story{
+    width: 100%;
+}
+
+.success-story-left{
+    width: 50%;
+}
+
+
+/* copyed */
+
+
+.story-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+    background-color: var(--background-color-alt);
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.stats-card {
+    height: 100%;
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    /* row-gap: 2rem; */
+    display: grid;
+    grid-template-rows: .20fr .20fr 1fr;
+}
+
+.stats-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.stats-body {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background: #e0e0e0;
+    border-radius: 50%;
+}
+
+.circle.big {
+    width: 85px;
+    height: 85px;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.stats-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-box {
+    height: max-content;
+    flex: 1;
+    padding: 1.2rem;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    margin: auto auto;
+}
+
+.stat-box p{
+    font-size: 2rem;
+}
+
+.project {
+    background: #6c63ff;
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.project h3 {
+    font-size: 3rem;
+}
+
+.growth {
+    background: var(--background-color-alt);
+    color: #1d1d35;
+}
+
+.growth h3 {
+    font-size: 3rem;
+}
+
+
+/* Info Cards (Right) */
+.info-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.info-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.info-card.marketing {
+    text-align: center;
+}
+
+.info-card .envlope img {
+    max-width: 40px;
+    margin-bottom: 1rem;
+}
+
+.envlope{
+    width: 60px;
+    height: 60px;
+    padding: 5px 5px 10px 5px;
+    background-color: #00000010;
+    border-radius: 20px;
+    margin: 0 auto 1rem auto;
+}
+
+.info-card h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.info-card p {
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.info-card.customer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.info-card.customer .tags {
+    margin-right: 0;
+}
+
+/* Tags */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.tag {
+    background: var(--background-color-alt);
+    color: #333;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.tag:hover {
+    background: #6c63ff;
+    color: #fff;
+}
+
+
+
+
+/* copyed */
+
+/* success stoy end */
+
+
+
+/* footer start */
+
+/* copyed */
+
+
+/* Footer Styling */
+.footer {
+    /* background: #f7fafc; */
+    background-image: url('../images/footer-bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-container {
+    background: #fff;
+    padding: 3rem;
+    border-radius: 12px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.footer .main-footer {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 2rem;
+    padding: 3rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+/* About Section */
+.footer-about h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #1a1a3c;
+    margin-bottom: 1rem;
+}
+
+.footer-about p {
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.social-icons a {
+    color: #1a1a3c;
+    margin-right: 15px;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #6c63ff;
+}
+
+
+/* Links */
+.footer-links h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #1a1a3c;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.6rem;
+}
+
+.footer-links a {
+    color: #666;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #6c63ff;
+}
+
+
+/* Newsletter */
+.footer-newsletter h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #1a1a3c;
+}
+
+.footer-newsletter p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.footer-newsletter form {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.footer-newsletter input {
+    flex: 1;
+    padding: 0.8rem;
+    border: none;
+    outline: none;
+}
+
+.footer-newsletter button {
+    margin-top: 0;
+    background: #6c63ff;
+    border: none;
+    color: #fff;
+    padding: 0 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-newsletter button:hover {
+    background: #5348d4;
+}
+
+
+/* Bottom */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer-bottom p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-bottom a {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-bottom a:hover {
+    color: #6c63ff;
+}
+
+
+
+/* copyed */
+
+/* footer end */
