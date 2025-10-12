@@ -1254,3 +1254,33 @@ h1 {
 .br-b {
     border-bottom: 1px solid var(--border-color);
 }
+
+/* contact page css start */
+
+.contact-detail {
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+    background-color: var(--background-color-alt);
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.contact-detail-icon {
+    scale: 1.5;
+    padding: 3px;
+    background-color: var(--text-color-light);
+    color: var(--secondary-color);
+    border-radius: 100%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input {
+}
+
+/* contact page css end */
